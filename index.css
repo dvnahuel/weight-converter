@@ -1,0 +1,41 @@
+body {
+    background: #2A363B;
+    color: whitesmoke;
+    margin-top: 9%;
+    font-family: 'Montserrat';
+}
+
+.redOne {
+    background: #E84A5F;
+}
+.redTwo {
+    background: #FF847C;
+}
+.redThree {
+    background: rgb(243, 183, 134);
+}
+.fa-twitter {
+    color: whitesmoke;
+}
+.fa-linkedin-in {
+    color: whitesmoke;
+}
+.fa-github-alt {
+    color: whitesmoke;
+}
+
+#lbsInput {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+ul li a i:hover {
+    color: #99B898;
+}
+ul li a i:active {
+    color: #99B898;
+    box-shadow: rgba(0, 0, 0, 0.45);
+}

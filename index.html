@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6  offset-md-3">
+                <div class=" text-center"><i class="fas fa-balance-scale display-4 text-center mb-3"></i></div>
+                <h1 class="display-4 text-center mb-3">Weight Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Introduce your Kilograms here...">
+                    </div>
+                </form>
+                <div class="list-inline text-center" id="iconSee">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://twitter.com/DvNahuel" target="_blank" class="list-inline-item  social-icon"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/dvnahuel/" target="_blank" class="list-inline-item  social-icon"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/dvnahuel" target="_blank" class="list-inline-item  social-icon"><i class="fab fa-github-alt"></i></a></li>
+                    </ul> 
+                </div>
+
+                <div id="output">
+                    <div class="card redOne mb-2">
+                        <div class="card-body">
+                            <h2>Pounds:</h2>
+                            <div id="poundsOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card redTwo mb-2">
+                        <div class="card-body">
+                            <h2>Grams:</h2>
+                            <div id="gOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card redThree mb-2">
+                        <div class="card-body">
+                            <h2>Ounces:</h2>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
